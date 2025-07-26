@@ -1,0 +1,24 @@
+{
+  "name": "hospital-system-cli",
+  "version": "1.0.0",
+  "description": "A terminal-based hospital system built with Node.js, supporting admin, doctors, and patients with password hashing and file I/O.",
+  "main": "main.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [
+    "cli",
+    "hospital-system",
+    "nodejs",
+    "async",
+    "file-system",
+    "bcrypt"
+  ],
+  "author": "Shehu Baje Umar",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "prompt-sync": "^4.2.0"
+  }
+}
